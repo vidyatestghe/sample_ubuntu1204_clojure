@@ -2,6 +2,7 @@
 language: clojure
 
 env:
+ global:
   - secure: S5TW/LUzNpjA8b0hb+j/KVo1mB9vGQxkTovoZvuELb/gDEE7Pb/O/QO3Bv0oGDqL8QFAJTftz3QJVMn+yeQRRt0qi+Z0Rt1G0VcPUGMOE/4gyiKb8HBeF6Jy/iubgBu+LsizNlrsh1qR0S76LAEbSCqMm7dsUTztJHi+XB2STxKFgihxzxeG9rCX3wBoQZSeJQW5gza7q9RO1jJ7rhamWRHnGMnb/P+Pb8gccKDqVrFLF6C3y+2XGZfF7w5Qrf7TEW/0SUCeMuc5idfABm4jWd4iZ19xkVHbYSCPhjSsn1QOulr3nLQTC8nDfCDf9k9M4qlk1KI7cTbLYEoboVHZxQ==
 
 lein:
