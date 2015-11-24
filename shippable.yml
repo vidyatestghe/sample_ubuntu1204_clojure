@@ -3,6 +3,7 @@ language: clojure
 
 env:
  global:
+  - secure: MGV4GPxNRjfamsp3H1qQo9NmyKNS/1TZsd7v5AcYOMoNoeZxWt6f85wdE8Kq5Mt5WrDpLnMIDkHtYYMO9J6XZOux9BQz+/Y5Go23l64LCVsb+j6/pfltv4UNHlN5JCXp+iEWvywp7PuEqgRc1m64HqCwQW7TvuyxkEoPAZMHmc6VWcAEkjZGj8zJQM/BCxGYSifeWZzhmdNlenNsXgvrpP5FbFO6d54XrLnitTG022N2J4uyh0KCPzihYRrvsJXkxtHVh5Fttl/FarFTZBnr2KAc2dxh9Y3rxY43wxusHsVzWLw7hlWV9RN4VDk6CKJF+YtD+XEUEXFgGWhmfs0n+Q==
   - secure: S5TW/LUzNpjA8b0hb+j/KVo1mB9vGQxkTovoZvuELb/gDEE7Pb/O/QO3Bv0oGDqL8QFAJTftz3QJVMn+yeQRRt0qi+Z0Rt1G0VcPUGMOE/4gyiKb8HBeF6Jy/iubgBu+LsizNlrsh1qR0S76LAEbSCqMm7dsUTztJHi+XB2STxKFgihxzxeG9rCX3wBoQZSeJQW5gza7q9RO1jJ7rhamWRHnGMnb/P+Pb8gccKDqVrFLF6C3y+2XGZfF7w5Qrf7TEW/0SUCeMuc5idfABm4jWd4iZ19xkVHbYSCPhjSsn1QOulr3nLQTC8nDfCDf9k9M4qlk1KI7cTbLYEoboVHZxQ==
 
 lein:
@@ -12,7 +13,7 @@ lein:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-  - echo $key1
+  - echo $key1 and $key2
 # Running the test with Leiningen
 script:
   - cd sample
